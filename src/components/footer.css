@@ -122,3 +122,23 @@
 .faq-main{
     margin: 0px 3rem;
 }
+.faq-text{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .faq-text{
+        text-align: left;
+        margin-left: 12px;
+    }
+    .faq-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.1);
+        margin: 8px;
+    }
+    .faq-main{
+        margin: 0px 10px;
+    }
+}
